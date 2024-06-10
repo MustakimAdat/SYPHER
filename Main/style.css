@@ -1,0 +1,100 @@
+@font-face {
+    font-family: PowerGrotesk-Regular;
+    src: url(s.font/PowerGrotesk-Regular.ttf);
+}
+@font-face {
+    font-family: melodrama;
+    src: url(melodrama);
+}
+@font-face {
+    font-family: anton;
+    src: url(s.font/Anton-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+html{
+    background-image: url(../media/bg2.png)
+}
+
+.main{
+    overflow-x:hidden ;
+}
+
+/* This is background lines */
+/* .menu{
+    display: flex;
+    position: relative;
+}
+.line1{
+    margin-left: 25%;
+    height: 100vh;
+    width: 1px;
+    background-color: #171717;
+    display: grid;
+}
+.line2{
+    margin-left: 25%;
+    height: 100vh;
+    width: 1px;
+    background-color: #171717;
+    display: grid;
+}
+.line3{
+    margin-left: 25%;
+    height: 100vh;
+    width: 1px;
+    background-color: #171717;
+    display: grid;
+} */
+
+/* Nav bar */
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2vw 3vw;
+    /* background-color: aqua; */
+}
+
+.nav p{
+    font-family: 'Mattone 150';
+    padding-left: 15vw;
+}
+
+.menu{
+    font-family: 'Mattone 150';
+    padding-left: 57vw;
+}
+
+.sypher-text{
+    font-family: 'Stretch Pro';
+    padding-left: 3vw;
+    padding-top: vh;
+    font-size: 5rem;
+}
+
+.sub-text{
+    position: relative;
+    left: 65%;
+    font-family: 'Mattone 150';
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.472);
+}
+
+.small-text{
+    width: 15vw;
+    text-align: right;
+    position: relative;
+    left: 79%;
+    padding-top: 25px;
+    font-family: 'Mattone 150';
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.472);
+}
